@@ -16,4 +16,4 @@ WORKDIR /app
 
 COPY --from=build /app/target/Maven-Demo-Project-1.0-SNAPSHOT.jar app.jar
 
-CMD ["java", "-cp", "app.jar", "Source"]
+CMD ["java", "-cp", "app.jar", "com.example.Source"]

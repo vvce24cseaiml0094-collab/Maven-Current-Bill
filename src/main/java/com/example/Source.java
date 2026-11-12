@@ -40,4 +40,17 @@ public class Source {
 
         return bill;
     }
+    public static void main(String[] args) {
+
+        Source obj = new Source();
+
+        int units = 250;
+
+        double bill = obj.calculateBill(units);
+
+        System.out.println("Electricity Bill Calculator");
+        System.out.println("----------------------------");
+        System.out.println("Units Consumed: " + units);
+        System.out.println("Total Bill: Rs. " + bill);
+    }
 }
