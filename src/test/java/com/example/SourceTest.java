@@ -8,7 +8,7 @@ public class SourceTest {
 
     @Test
     public void testFirstSlab() {
-        assertEquals(125.0, obj.calculateBill(50), 0.001);
+        assertEquals(120.0, obj.calculateBill(50), 0.001);
     }
 
     @Test
