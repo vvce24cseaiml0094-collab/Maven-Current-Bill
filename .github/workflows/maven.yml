@@ -56,5 +56,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/electricity-bill-calculator:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/electricity-bill-calculator:${{ github.sha }}
+            m308/maven-current-bill:latest
+            m308/maven-current-bill:${{ github.sha }}
